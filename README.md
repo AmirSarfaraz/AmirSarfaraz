@@ -1,6 +1,6 @@
 <!-- Header - معرفی -->
 <h1 align="center">Hi 👋, I'm Parham Pourkhani</h1>
-<h3 align="center">🎨 I am a <span style="color: #FF69B4;">Front-End Developer</span> 💻</h3>
+<h3 align="center">🎨 I am a <span style="color: #FF69B4;">Ba Developer</span> 💻</h3>
 
 <!-- Views -->
 <p align="center"> 
@@ -62,7 +62,7 @@
 
 <!-- Snake animation center aligned -->
 <div align="center">
-  <img src="https://github.com/ParhamPK03/AmirSarfaraz/blob/output/github-snake-dark.svg" alt="Snake animation" />
+  <img src="https://github.com/AmirSarfaraz/AmirSarfaraz/blob/output/github-snake-dark.svg" alt="Snake animation" />
 </div>
 
 <!-- Stats -->
