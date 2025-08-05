@@ -29,10 +29,13 @@
         <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
         <br>TypeScript
       </td>
-      <div style="display: flex;"><img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="67" style="width: 67px; height: 67px; margin-right: 0px; margin-bottom: 50px;" /></div><div style="display: flex;"><img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="67" style="width: 67px; height: 67px; margin-right: 0px; margin-bottom: 0px;" /></div>
-      <td align="center" width="90">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="65" height="65"/> 
-        <br>Html
+      <td>
+          <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="67"/>
+        <br>C#
+      </td>
+      <td>
+         <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="67"/>
+        <br>docker
       </td>
       <td align="center" width="90">
         <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
