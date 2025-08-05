@@ -1,6 +1,6 @@
 <!-- Header - معرفی -->
-<h1 align="center">Hi 👋, I'm Parham Pourkhani</h1>
-<h3 align="center">🎨 I am a <span style="color: #FF69B4;">Ba Developer</span> 💻</h3>
+<h1 align="center">Hi 👋, I'm Amir Sarfaraz</h1>
+<h3 align="center">🎨 I am a <span style="color: #FF69B4;">Back-End Developer</span> 💻</h3>
 
 <!-- Views -->
 <p align="center"> 
