@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 سلام! من علی هستم
 
-<!--
-**AmirSarfaraz/AmirSarfaraz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🌱 در حال یادگیری: Clean Architecture, DDD, .NET 9  
+💼 فریم‌ورک‌ها و ابزارهایی که استفاده می‌کنم:  
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)  
+![.NET](https://img.shields.io/badge/-.NET-5C2D91?style=flat&logo=.net&logoColor=white)  
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white)  
+📫 تماس با من: [Email](mailto:your@email.com) | [LinkedIn](https://linkedin.com/in/yourprofile)
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔧 پروژه‌های من
+- ✨ [My-Cool-Project](https://github.com/username/My-Cool-Project) — یه پروژه خیلی خفن برای آموزش EF + JWT + Clean Architecture
+
+---
+
+### 📈 آمار فعالیت من
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
