@@ -62,7 +62,7 @@
 
 <!-- Snake animation center aligned -->
 <div align="center">
-  <img src="https://github.com/AmirSarfaraz/AmirSarfaraz/blob/output/github-snake-dark.svg" alt="Snake animation" />
+  <img src="https://github.com/AmirSarfaraz/AmirSarfaraz/blob/main/github-snake-dark.svg" alt="Snake animation" />
 </div>
 
 <!-- Stats -->
