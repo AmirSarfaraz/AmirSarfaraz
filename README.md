@@ -3,9 +3,6 @@
 <h3 align="center">🎨 I am a <span style="color: #FF69B4;">Back-End Developer</span> 💻</h3>
 
 <!-- Views -->
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=AmirSarfaraz&label=Profile%20views&color=0e75b6&style=flat" alt="AmirSarfaraz" /> 
-</p>
 
 <!-- Trophy -->
 <p align="center"> 
