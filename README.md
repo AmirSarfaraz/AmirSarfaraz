@@ -1,11 +1,11 @@
-# 👋 سلام! من علی هستم
+# 👋 سلام! امیرحسینم
 
 🌱 در حال یادگیری: Clean Architecture, DDD, .NET 9  
 💼 فریم‌ورک‌ها و ابزارهایی که استفاده می‌کنم:  
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)  
 ![.NET](https://img.shields.io/badge/-.NET-5C2D91?style=flat&logo=.net&logoColor=white)  
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white)  
-📫 تماس با من: [Email](mailto:your@email.com) | [LinkedIn](https://linkedin.com/in/yourprofile)
+📫 تماس با من: [Email](mailto:AmirhooseinSarfaraz@yahoo.com) | [LinkedIn](https://linkedin.com/in/AmirSarfaraz)
 
 ---
 
