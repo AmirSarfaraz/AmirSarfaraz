@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 const root = fileURLToPath(new URL("../../", import.meta.url));
 export const path = (p) => root + p;
 
-// Colours from the website (amir-sarfaraz-resume.vercel.app)
+// Colours from the website (amirsarfaraz.com)
 export const C = {
   ink: "#0b0b0c",
   inkSoft: "#141416",

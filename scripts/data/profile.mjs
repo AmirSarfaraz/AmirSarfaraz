@@ -1,5 +1,5 @@
 // Everything written on the profile. Facts match the LinkedIn profile and the website.
-export const SITE = "https://amir-sarfaraz-resume.vercel.app";
+export const SITE = "https://www.amirsarfaraz.com";
 
 export const links = [
   { key: "site", label: "website", cmd: "open site", href: SITE, icon: "site" },
