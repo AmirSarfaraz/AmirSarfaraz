@@ -1,72 +1,29 @@
-<!-- Header - معرفی -->
-<h1 align="center">Hi 👋, I'm Amir Sarfaraz</h1>
-<h3 align="center">🎨 I am a <span style="color: #FF69B4;">Back-End Developer</span> 💻</h3>
-
-<!-- Views -->
-
-<!-- Trophy -->
-<p align="center"> 
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=AmirSarfaraz" alt="AmirSarfaraz" />
-  </a> 
-</p>
-
-<!-- Lang -->
-<h3 align="center">Languages and Tools:</h3>
-
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="90">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="65" height="65"/> 
-        <br>Css
-      </td>
-      <td align="center" width="90">
-        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
-        <br>JavaScript
-      </td>
-      <td align="center" width="90">
-        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
-        <br>TypeScript
-      </td>
-      <td>
-          <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="67"/>
-        <br>C#
-      </td>
-      <td>
-         <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="icon" width="67"/>
-        <br>docker
-      </td>
-      <td align="center" width="90">
-        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
-        <br>React
-      </td>
-      <td align="center" width="90">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png" alt="icon" width="55" height="55" />
-        <br>Bootstrap
-      </td>
-      <td align="center" width="90"> 
-        <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="Git" />
-        <br>Git
-      </td>      
-      <td align="center" width="90">
-        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" width="55" height="55" alt="Node.js" />
-        <br>Node.js
-      </td>    
-      <td align="center" width="90">
-        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="50" height="50"/> 
-        <br>Postman
-      </td> 
-    </tr> 
-  </table>
-</div>
 
-<!-- Snake animation center aligned -->
-<div align="center">
-  <img src="https://github.com/AmirSarfaraz/AmirSarfaraz/blob/main/github-snake-dark.svg" alt="Snake animation" />
-</div>
+<img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/header.svg" width="860" alt="Amir Sarfaraz — Back-End .NET Developer" />
 
-<!-- Stats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmirSarfaraz&show_icons=true&locale=en" alt="AmirSarfaraz" />
-</p>
+<a href="https://amir-sarfaraz-resume.vercel.app"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/btn-site.svg" width="206" alt="website" /></a>
+<a href="https://www.linkedin.com/in/amir-sarfaraz-457b9a234/"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/btn-linkedin.svg" width="206" alt="linkedin" /></a>
+<a href="https://t.me/AmirhSarfaraz"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/btn-telegram.svg" width="206" alt="telegram" /></a>
+
+<img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/whoami.svg" width="860" alt="whoami — ASCII portrait and a neofetch-style card: Amirhossein Sarfaraz, Back-End .NET Developer in Tehran" />
+
+<img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/contributions.svg" width="860" alt="Contribution graph of the last year, played as Galaga" />
+
+<img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/stack.svg" width="860" alt="Tech stack: C#, .NET, ASP.NET Core, SQL Server, PostgreSQL, React, TypeScript, Docker, PyTorch and more" />
+
+<a href="https://amir-sarfaraz-resume.vercel.app/#experience"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/sajed-erp.svg" width="410" alt="Sajed ERP — Modules of the university's integrated ERP: loans, employment status, missions, severance, HR" /></a>
+<a href="https://amir-sarfaraz-resume.vercel.app/#projects"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/sajeddoc.svg" width="410" alt="SajedDoc — AI classifier for uploaded HR documents — 97.7% validation accuracy, ~13 ms per image on CPU" /></a>
+
+<a href="https://amir-sarfaraz-resume.vercel.app/#projects"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/sajed-app.svg" width="410" alt="Sajed App — Self-service app for staff & faculty: 56-endpoint API with OTP login, PDF/QR documents, React UI" /></a>
+<a href="https://winup360.com"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/winup360.svg" width="410" alt="WinUp360 — Sports-education platform: classes, enrollments, 3 payment gateways, payouts to coaches & clubs" /></a>
+
+<a href="https://amir-sarfaraz-resume.vercel.app/#projects"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/hoshyar.svg" width="410" alt="Hoshyar — AI-powered workspace for organizations: AI chat & agents, calendars, task boards, document search" /></a>
+<a href="https://amir-sarfaraz-resume.vercel.app/#projects"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/grand-role-play.svg" width="410" alt="Grand Role Play — GTA V role-play community — web-shop back end wired into the game economy, servers" /></a>
+
+<a href="https://amir-sarfaraz-resume.vercel.app/#projects"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/noor.svg" width="410" alt="Noor — Rewards & engagement API behind Bonyad Salavat's app, deployed with GitHub Actions" /></a>
+<a href="https://amir-sarfaraz-resume.vercel.app/#projects"><img src="https://raw.githubusercontent.com/AmirSarfaraz/AmirSarfaraz/output/projects/aichat.svg" width="410" alt="AIChatPlatform — LLM chat platform with streaming replies, Google/GitHub sign-in and a credit system" /></a>
+
+<sub>Every panel is an SVG generated by <a href=".github/workflows/profile.yml">a GitHub Action</a> that runs daily · Galaga by <a href="https://github.com/abozanona/pacman-contribution-graph">pacman-contribution-graph</a></sub>
+
+</div>

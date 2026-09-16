@@ -1,0 +1,14 @@
+{
+  "name": "amirsarfaraz-profile",
+  "version": "1.0.0",
+  "description": "Generates the SVG art for github.com/AmirSarfaraz",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "pacman-contribution-graph": "^5.3.1"
+  }
+}
