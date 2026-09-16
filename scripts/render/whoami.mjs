@@ -1,14 +1,7 @@
 import { readFileSync } from "node:fs";
 import { C, WIDTH, MONO, esc, mix, fontFaces, svgOpen, path } from "../lib/theme.mjs";
 import { windowFrame, prompt, baseCss, BAR } from "../lib/window.mjs";
-import { neofetch, CAREER_START } from "../data/profile.mjs";
-
-export function uptime(now = new Date()) {
-  const start = new Date(CAREER_START);
-  const months = (now.getFullYear() - start.getFullYear()) * 12 + (now.getMonth() - start.getMonth());
-  const y = Math.floor(months / 12), m = months % 12;
-  return [y && `${y} yr${y > 1 ? "s" : ""}`, m && `${m} mo${m > 1 ? "s" : ""}`].filter(Boolean).join(" ");
-}
+import { neofetch } from "../data/profile.mjs";
 
 // deterministic 0/1 noise for the "decoding" layer
 const bit = (r, c) => ((r * 73856093) ^ (c * 19349663)) & 1;
@@ -52,7 +45,7 @@ function portrait({ x, y, width }) {
   };
 }
 
-export function renderWhoami(stats = {}) {
+export function renderWhoami() {
   const W = WIDTH;
   const pad = 22;
   const top = BAR + 44;
@@ -76,11 +69,10 @@ export function renderWhoami(stats = {}) {
   };
 
   let i = 0;
-  for (const [k, v] of neofetch) rows += line(k, v.replace("{uptime}", uptime()), i++);
+  for (const [k, v] of neofetch) rows += line(k, v, i++);
   y += 10;
-  if (stats.contributions > 0) rows += line("Activity", `${stats.contributions} contributions in the last year`, i++, C.paperDim);
   rows += line("Repos", "mostly private: company & client code", i++, C.paperDim);
-  rows += line("Refreshed", `${stats.refreshed ?? new Date().toISOString().slice(0, 10)} by GitHub Actions`, i++, C.muted);
+  rows += line("Contact", "website · linkedin · telegram", i++, C.paperDim);
 
   y += 6;
   const swatches = [C.ink, "#2a2a2f", C.faint, C.muted, C.paper, C.accent];

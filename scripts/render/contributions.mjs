@@ -12,7 +12,7 @@ const RECOLOR = [
   [/#161b22/gi, "#17171a"],
 ];
 
-export function renderContributions({ gameSvg, total }) {
+export function renderContributions({ gameSvg, total, asOf }) {
   const W = WIDTH, pad = 22;
   const open = gameSvg.match(/<svg[^>]*>/)[0];
   const gw = Number(open.match(/width="([\d.]+)"/)[1]);
@@ -33,6 +33,6 @@ export function renderContributions({ gameSvg, total }) {
   ${windowFrame({ w: W, h: H, title: "amir@sarfaraz: ~/contributions — galaga" })}
   ${prompt({ x: pad, y: BAR + 26, cmd: "./galaga --contributions --last-year" })}
   <svg x="${gx}" y="${gy}" width="${gwOut}" height="${ghOut.toFixed(1)}" viewBox="0 0 ${gw} ${gh}" preserveAspectRatio="xMidYMid meet">${inner}</svg>
-  <text x="${pad}" y="${footY}" font-family="${MONO}" font-size="12.5" fill="${C.muted}"><tspan fill="${C.accent}">▸ </tspan>${summary}<tspan fill="${C.faint}"> · refreshed daily</tspan></text>
+  <text x="${pad}" y="${footY}" font-family="${MONO}" font-size="12.5" fill="${C.muted}"><tspan fill="${C.accent}">▸ </tspan>${summary}<tspan fill="${C.faint}">${asOf ? ` · as of ${esc(asOf)}` : ""}</tspan></text>
 </svg>`;
 }

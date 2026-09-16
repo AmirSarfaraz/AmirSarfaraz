@@ -1,17 +1,9 @@
 name: profile art
 
+# Manual for now: GitHub Actions is not available on this account yet.
+# When it is, add a schedule (for example `- cron: "17 2 * * 1"`) to refresh the Galaga board weekly.
 on:
-  schedule:
-    - cron: "17 2 * * *"
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/**"
-      - "data/**"
-      - "fonts/**"
-      - "package*.json"
-      - ".github/workflows/profile.yml"
 
 permissions:
   contents: write
@@ -37,18 +29,11 @@ jobs:
       - name: build SVGs
         run: node scripts/build.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_LOGIN: ${{ github.repository_owner }}
-          OUT_DIR: dist
 
-      - name: publish to the output branch
-        working-directory: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit assets
         run: |
-          git init -q -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -q -m "profile art $(date -u +%F)"
-          git push -q --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+          git add assets
+          git diff --cached --quiet || (git commit -m "Refresh profile art" && git push)

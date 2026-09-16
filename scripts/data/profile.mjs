@@ -7,7 +7,6 @@ export const links = [
   { key: "telegram", label: "telegram", cmd: "open telegram", href: "https://t.me/AmirhSarfaraz", icon: "telegram" },
 ];
 
-export const CAREER_START = "2023-12-01"; // first developer role (IAU Central Organization)
 
 export const neofetch = [
   ["Name", "Amirhossein Sarfaraz"],
@@ -20,7 +19,7 @@ export const neofetch = [
   ["Core", "C# · ASP.NET Core · SQL Server · React"],
   ["Data", "SQL Server · PostgreSQL · MySQL · Redis"],
   ["AI", "PyTorch · OpenCV · ONNX · FastAPI"],
-  ["Uptime", "{uptime} shipping to production"],
+  ["Uptime", "shipping to production since Dec 2023"],
   ["Status", "open to back-end & full-stack .NET roles"],
 ];
 
